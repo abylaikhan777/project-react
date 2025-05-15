@@ -1,0 +1,166 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #121212;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 350px;
+            background: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .logo {
+            width: 175px;
+            margin: 20px auto 30px;
+           
+            color: white;
+        }
+
+        select{
+            background-color:  #1e1e1e;
+            color: #e0e0e0;
+            border: none;
+            margin: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            background: #333;
+            border: 1px solid #555;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #e0e0e0;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #0095f6;
+            box-shadow: 0 0 5px rgba(0, 149, 246, 0.5);
+        }
+        .loginFalse {
+            border-color: rgba(255, 0, 0, 0.849);
+        }
+        .loginCorrect {
+            border-color:  #0095f6;
+        }
+        .password {
+            border-color: rgba(255, 0, 0, 0.849);
+        }
+        .paswordCorrect {
+            border-color: #0095f6;
+        }
+        form p{
+            color: rgb(255, 58, 58);
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background: #0095f6;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #0077b6;
+        }
+
+        .separator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            color: #888;
+        }
+
+        .separator::before,
+        .separator::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #444;
+            margin: 0 10px;
+        }
+
+        .fb-login {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 15px 0;
+        }
+
+        .links a {
+            color: #0095f6;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .register-container {
+            margin-top: 20px;
+            background: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .register-link {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .a-Zabyl{
+            color: #888;
+            text-decoration: none;
+            display: block;
+            margin: 15px 0;
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: #888;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .footer-links {
+            margin: 10px 0;
+        }
+
+        .footer-links a {
+            color: #888;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+                padding: 0 20px;
+            }
+        }
