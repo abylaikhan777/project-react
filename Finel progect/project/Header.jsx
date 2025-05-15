@@ -5,7 +5,7 @@ function Header() {
   const { isAuth, login, logout } = useAuth();
   const { theme, toggleTheme,  } = useTheme();
   const navigate = useNavigate()
-
+ 
 
   return (
     <header className={`flex justify-between items-center p-4 ${theme === 'dark' ? 'bg-gray-800' : 'bg-blue-500 shadow-md'} `}>

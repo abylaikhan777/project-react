@@ -22,7 +22,7 @@ export function ThemeProvider({ children }) {
       text: 'text-gray-100',
       button: 'bg-blue-600 hover:bg-blue-700 text-white',
     }
-  };
+  }; 
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme, themeClasses }}>

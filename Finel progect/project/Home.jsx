@@ -6,7 +6,7 @@ function HomePage() {
   const { theme, toggleTheme, themeClasses } = useTheme();
   const { isAuth, user, logout } = useAuth();
 
-
+ 
   const currentTheme = themeClasses?.[theme] || themeClasses?.dark || {
     bg: 'bg-gray-900',
     text: 'text-gray-100',

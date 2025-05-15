@@ -108,7 +108,7 @@ function Login({ children }) {
               className="w-full p-2 border rounded"
               required
             />
-          </div>
+          </div> 
 
           <button
             type="submit"

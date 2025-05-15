@@ -84,7 +84,7 @@ function Register() {
             <label htmlFor="email" className="block mb-1 font-medium">
               Email
             </label>
-            <input
+            <input 
               type="email"
               id="email"
               value={state.email}
